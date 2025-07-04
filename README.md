@@ -1,4 +1,4 @@
-🎨 ##Random Canvas Circles
+🎨 #Random Canvas Circles
 This is a simple web project that renders 100 randomly positioned and sized semi-transparent red circles on an HTML5 <canvas> element. A button labeled "Update" lets you regenerate the random pattern each time it's clicked.
 
 #🚀 Demo
