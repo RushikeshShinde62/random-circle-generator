@@ -34,6 +34,8 @@ All circles are randomly generated with different positions, sizes, and colors e
 ## 📁 Project Structure
 /project-root
 │
-├── index.html # Main HTML file
-├── styles.css # Styling for layout and appearance
-└── script.js # JavaScript for circle generation and slider logic
+├── index.html
+
+├── styles.css 
+
+└── script.js
