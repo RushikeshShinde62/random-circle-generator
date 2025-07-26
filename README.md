@@ -1,28 +1,39 @@
-🎨 ##Random Canvas Circles
-This is a simple web project that renders 100 randomly positioned and sized semi-transparent red circles on an HTML5 <canvas> element. A button labeled "Update" lets you regenerate the random pattern each time it's clicked.
+# 🎨 Random Circle Generator
 
-#🚀 Demo
-<!-- Optional: Add a preview screenshot here if you have one -->
+A fun and interactive web app built with **HTML**, **CSS**, and **JavaScript** that generates colorful random circles on the screen. Users can control the **number of circles**, their **maximum radius**, and **opacity** using sliders.
 
-#🧠 Features
-Generates 100 random red circles on a full-screen canvas.
+## 🌐 Live Demo
 
-Responsive layout using full browser dimensions.
+👉 [Demo](https://random-circle-generator.netlify.app/)  
 
-Press the Update button to regenerate the canvas with a new pattern.
+---
 
-Lightweight and dependency-free.
+## 🚀 Features
 
-#💻 How to Use
-Clone or download this repository.
+- 🔄 Random generation of colorful circles
+- 🎚 Adjustable number of circles
+- 📏 Control over max radius
+- 🧊 Opacity control for better visuals
+- 🌈 Dynamic color combinations
+- 💻 Fully responsive layout
 
-Open index.html in your browser.
+---
 
-Click the Update button to see new patterns of random circles.
+## 🛠 How It Works
 
-#🛠️ How It Works
-The JavaScript sets the canvas to the size of the current browser window.
+You can customize three parameters:
 
-It uses a random() function to generate random positions and sizes for each circle.
+- **Circles**: Set how many circles appear on the screen.
+- **Max Radius**: Adjust the largest possible size of a circle.
+- **Opacity**: Set transparency to see overlapping effects.
 
-When the Update button is clicked, it clears the canvas and draws 100 new circles.
+All circles are randomly generated with different positions, sizes, and colors every time you reload or adjust the sliders.
+
+---
+
+## 📁 Project Structure
+/project-root
+│
+├── index.html # Main HTML file
+├── styles.css # Styling for layout and appearance
+└── script.js # JavaScript for circle generation and slider logic
